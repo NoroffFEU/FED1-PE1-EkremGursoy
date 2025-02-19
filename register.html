@@ -20,7 +20,7 @@
         <li><a href="/blog-posts.html">Blog</a></li>
       </ul>
     </nav>
-    <div>
+    <div class="main-logo-container">
       <img src="./assets/taste-of-turkey-logo.png" alt="Taste Of Turkey Logo">
     </div>
     <nav>
@@ -30,27 +30,28 @@
   </header>
 
   <main>
-    <h2>Register</h2>
-    <form id="register-form" action="#">
-      <label for="name">Name
+    <div class="register-container">
+      <h2>Register</h2>
+      <form id="register-form" action="#">
+        <label for="name">Name</label>
         <input type="text" id="name" name="name" required>
-      </label>
-      <label for="email">Email
+
+        <label for="email">Email</label>
         <input type="email" id="email" name="email" required>
-      </label>
-      <label for="password">Password
+
+        <label for="password">Password</label>
         <input type="password" id="password" name="password" required>
-      </label>
-      <label for="confirm-password">Confirm Password
+
+        <label for="confirm-password">Confirm Password</label>
         <input type="password" id="confirm-password" name="confirm-password" required>
-      </label>
-      <button type="submit">Log in</button>
-    </form>
-    <p>Already have an account? <a href="/login.html">Log in here!</a></p>
+        <button type="submit">Register</button>
+      </form>
+      <p>Already have an account? <a href="/login.html">Log in here!</a></p>
+    </div>
   </main>
 
   <footer>
-    <div>
+    <div class="footer-container">
       <nav>
         <ul class="categories">
           <li>Recipe Box</li>
@@ -61,8 +62,8 @@
           <li>Mezes</li>
         </ul>
       </nav>
-      <div>
-        <img src="./assets/taste-of-turkey-logo.png" alt="">
+      <div class="main-logo-container">
+        <img src="./assets/taste-of-turkey-logo.png" alt="Taste Of Turkey Logo">
       </div>
       <nav class="social-media-container">
         <h3>FOLLOW US</h3>

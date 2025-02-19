@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/layout.css">
-  <link rel="stylesheet" href="./styles/blog-posts.css">
+  <link rel="stylesheet" href="./styles/single-post.css">
   <title>Blog Posts</title>
 </head>
 
@@ -20,7 +20,7 @@
         <li><a href="/blog-posts.html">Blog</a></li>
       </ul>
     </nav>
-    <div>
+    <div class="main-logo-container">
       <img src="./assets/taste-of-turkey-logo.png" alt="Taste Of Turkey Logo">
     </div>
     <nav>
@@ -30,17 +30,19 @@
   </header>
 
   <main>
-    <h2 id="post-title"></h2>
+    <div class="single-post-container">
+      <h2 id="post-title"></h2>
 
-    <div>
+
       <img id="post-image" src="" alt="">
-    </div>
 
-    <p id="post-content"></p>
+
+      <p id="post-content"></p>
+    </div>
   </main>
 
   <footer>
-    <div>
+    <div class="footer-container">
       <nav>
         <ul class="categories">
           <li>Recipe Box</li>
@@ -51,8 +53,8 @@
           <li>Mezes</li>
         </ul>
       </nav>
-      <div>
-        <img src="./assets/taste-of-turkey-logo.png" alt="">
+      <div class="main-logo-container">
+        <img src="./assets/taste-of-turkey-logo.png" alt="Taste Of Turkey Logo">
       </div>
       <nav class="social-media-container">
         <h3>FOLLOW US</h3>
