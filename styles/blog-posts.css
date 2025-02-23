@@ -53,6 +53,7 @@ main{
     border-radius: 10px;
     background-color: #C4C4C41A;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .blog-card img{
